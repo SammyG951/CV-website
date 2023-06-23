@@ -15,6 +15,18 @@ body {
     font-family: 'Merriweather', serif;
     margin: 0;
     text-align: center;
+    position: relative;
+    padding-bottom: 300px;
+    min-height: 100vh;
+}
+
+footer {
+    background-color: var(--primary-color-alt);
+    padding-top: 50px;
+    padding-bottom: 50px;
+    position: absolute;
+    bottom: 0; 
+    width: 100%;
 }
 
 hr {
@@ -192,14 +204,6 @@ h4 {
 
 .contact-link-icons:hover {
     filter: invert(37%) sepia(66%) saturate(549%) hue-rotate(134deg) brightness(96%) contrast(94%);
-}
-
-/**** FOOTER ****/
-
-#footer {
-    background-color: var(--primary-color-alt);
-    padding-top: 50px;
-    padding-bottom: 50px;
 }
 
 #contact-me {
