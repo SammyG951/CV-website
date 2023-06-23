@@ -1,0 +1,353 @@
+/**** COLOR PALLETE ****/
+:root {
+    --primary-color: #2C3333;
+    --primary-color-alt: #343c3c;
+    --secondary-color: #2E4F4F;
+    --teriary-color: #0E8388;
+    --quaternary-color: #CBE4DE;
+}
+
+/**** BLOCK TAGS ****/
+
+body {
+    background-color: var(--primary-color);
+    color: #F0FBFF;
+    font-family: 'Merriweather', serif;
+    margin: 0;
+    text-align: center;
+}
+
+hr {
+    border: dotted var(--quaternary-color) 6px ;
+    border-bottom: none;
+    width: 4%;
+    margin:100px auto;
+}
+
+h1 {
+    font-family: 'Monsterrat', sans-serif;
+    font-size: 4rem;
+    font-weight: normal;
+    margin: 50px auto 50px auto;
+}
+
+h2 {
+    font-family: 'Monsterrat', sans-serif;
+    font-size: 2.5rem;
+    font-weight: normal;
+    padding-bottom: 10px;
+}
+
+h3 {
+    font-family: 'Monsterrat',  sans-serif;
+    font-size: 2rem;
+    font-weight: normal;
+    padding-bottom: 10px;
+}
+
+h4 {
+    font-family: 'Monsterrat', sans-serif;
+    font-size: 1.5rem;
+    font-weight: normal;
+}
+
+/**** NAV BAR ****/
+
+#character {
+    width: 65px;
+    height: auto;
+    filter: grayscale(50%) contrast(0.09);
+    padding-left: 20px;
+}
+
+.navbar {
+    background-color: var(--primary-color);
+}
+
+.navbar-brand {
+    font-family: 'Monsterrat', sans-serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.nav-item {
+    padding: 0 18px;
+}
+
+.nav-link {
+    font-family: 'Monsterrat', sans-serif;
+    font-size: 1.2rem;
+    font-weight: lighter;
+}
+
+/**** BIO SECTION ****/
+
+#bio {
+    background-color: var(--primary-color);
+    position: relative;
+    padding-top: 200px;
+    padding-bottom: 50px;
+}
+
+#bio p {
+    color: gray;
+    padding-left: 250px;
+    padding-right: 250px;
+    line-height: 2.5rem;
+    font-size: 1rem;
+}
+
+#web-page-icon {
+    filter: grayscale(50%) contrast(0.5);
+    position: absolute;
+    left: 12%;
+    top: 29%;
+    transform: rotate(-25deg);
+}
+
+#cpu {
+    filter: grayscale(50%) contrast(0.5);
+    position: absolute;
+    right: 9%;
+    top: 56%;
+    transform: rotate(25deg);
+}
+
+#bulb {
+    filter: grayscale(50%) contrast(0.5);
+    position: absolute;
+    right: 20%;
+    top: 8%;
+    transform: rotate(-25deg);
+}
+
+/**** TABLE OF CONTENTS ****/
+
+#table-of-contents {
+    background: var(--primary-color);
+    background: linear-gradient(180deg, var(--primary-color) 0%, var(--primary-color-alt) 5%, var(--primary-color-alt) 95%, var(--primary-color) 100%);
+    position: relative;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#table-of-contents a {
+    color: #F0FBFF;
+    font-family: 'Montserrat', sans-serif;
+    margin: 10px 20px;
+    text-decoration: none;
+}
+
+#table-of-contents a:hover {
+    color: var(--quaternary-color)
+}
+
+#table-of-contents ul {
+    text-align: left;
+}
+
+/**** EDUCATION SECTION ****/
+
+#education {
+    background-color: var(--primary-color);
+    position: relative;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+/**** EXPERIENCE SECTION ****/
+
+#experience {
+    background-color: var(--primary-color);
+    position: relative;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#experience ul {
+    text-align: left;
+}
+
+/**** SKILLS SECTION ****/
+
+#skills {
+    background-color: var(--primary-color);
+    position: relative;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+/**** CONTACT ****/
+
+#contact {
+    padding-bottom: 100px;
+}
+
+.contact-link-icons {
+    width: 80px;
+    height: auto;
+    filter: invert(27%) sepia(9%) saturate(2046%) hue-rotate(131deg) brightness(87%) contrast(83%);
+    padding: 10px;
+}
+
+.contact-link-icons:hover {
+    filter: invert(37%) sepia(66%) saturate(549%) hue-rotate(134deg) brightness(96%) contrast(94%);
+}
+
+/**** FOOTER ****/
+
+#footer {
+    background-color: var(--primary-color-alt);
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#contact-me {
+    margin-top: 10px;
+}
+
+/**** CREDITS ****/
+
+.credits-link a {
+    color: var(--quaternary-color);
+    font-family: 'Montserrat', sans-serif;
+    margin: 10px 20px;
+    text-decoration: none;
+}
+
+.credits-link a:hover {
+    color: var(--teriary-color)
+}
+
+.credits-link p {
+    color: var(--quaternary-color);
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+}
+
+/**** CLASS TAGS ****/
+
+.anchor {
+    position: absolute;
+    top: -125px;
+    left: 0;
+}
+
+.back-button {
+    color: #F0FBFF;
+    background-color: #2C3333;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.back-button:hover {
+    color: #CBE4DE;
+}
+
+.copyright {
+    color: var(--quaternary-color);
+    font-size: 0.75rem;
+    padding: 20px 0;
+}
+
+.home-page-btn {
+    font-family: 'Merriweather', serif;
+    padding: 10px 20px 10px 20px;
+    color: #F0FBFF;
+    background: var(--secondary-color);
+}
+
+.home-page-btn:hover {
+    background: var(--teriary-color);
+}
+
+.img-float-left {
+    float: left;
+    margin-right: 30px;
+}
+
+.left-align-section {
+    text-align: left;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.left-align-section img {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.no-margin {
+    margin: 0px;
+}
+
+.padding-top-40px {
+    padding-top: 40px;
+}
+
+.section-padding-LR {
+    padding-left: 150px;
+    padding-right: 150px;
+}
+
+.section-padding-UD {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.section-item-row {
+    display: flex;
+    align-items: center;
+}
+
+.section-item-snapshot {
+    width: 200px;
+    height: auto;
+}
+
+.section-item-icon {
+    width: 50px;
+    height: auto;
+    margin-right: 30px;
+}
+
+.section-link {
+    color: #F0FBFF;
+    font-family: 'Monsterrat', sans-serif;
+    font-size: 1.2rem;
+    font-weight: lighter;
+    text-decoration: none;
+}
+
+.section-link:hover {
+    color: var(--quaternary-color);
+}
+
+.skill-row {
+    width: 38%;
+    height: auto;
+    padding: 25px 0px;
+    margin: 0px auto;
+    text-align: left;
+    display: flex;
+    align-items: center;
+}
+
+.skill-row::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.skill-row img {
+    width: 20%;
+    float: left;
+    margin-right: 30px;
+}
+
+.skill-row p {
+    font-size: 1.25rem;
+}
+
+
+

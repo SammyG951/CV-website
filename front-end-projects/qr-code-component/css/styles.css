@@ -1,0 +1,78 @@
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+/********************* Body Tags *********************/
+body {
+    min-height: 100vh;
+    background-color: hsl(212, 45%, 89%);
+    font-size: 0.938rem;
+    font-family: 'Outfit', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+h1 {
+    color: hsl(218, 44%, 22%);
+    font-size: 1.15rem;
+    margin-top: 1.2rem;
+    padding: 1rem;
+}
+
+p {
+    color: hsl(220, 15%, 55%);
+    padding: 1rem;
+    word-spacing: 0.5px;
+    text-align: center;
+}
+
+footer {
+    font-size: 14px;
+    text-align: center;
+    padding-bottom: 2rem;
+}
+
+footer a {
+    color: hsl(228, 45%, 44%) ;
+}
+
+/********************* Class Tags *********************/
+
+.card {
+    align-items: center;
+    background-color: white;
+    border-radius: 1rem;
+    box-shadow: 0 0 20px 5px lightgray;
+    justify-content: center;
+    font-family: 'Outfit', sans-serif;
+    margin: 2rem;
+    padding: 1rem;
+    width: 320px;
+}
+
+.text {
+    padding: 1.2rem;
+}
+
+.qr-code {
+    display: block;
+    width: 90%;
+    border-radius: 1rem;
+    margin: 0.5rem auto auto auto;
+}
+
+.back-button {
+    color: #F0FBFF;
+    background-color: #2C3333;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.back-button:hover {
+    color: #CBE4DE;
+}
