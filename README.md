@@ -7,7 +7,6 @@ This repository serves as a continously expanding personal site about me and as 
 
 - [Overview](#overview)
   - [Screenshot](#screenshot)
-  - [Links](#links)
 - [My Process](#my-process)
   - [Built with](#built-with)
   - [Continued Development](#continued-development)
