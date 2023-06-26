@@ -1,4 +1,4 @@
-# Personal Site
+# CV-website
 
 This repository serves as a personal site about me and as a hub to showcase my projects.
 
