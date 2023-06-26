@@ -6,7 +6,7 @@ This repository serves as a personal site about me and as a hub to showcase my p
 
 ## License
 
-Distributed under the MIT License. See `LICENSE.txt` for more information.
+Distributed under the MIT License. See `LICENSE` for more information.
 
 ## Contact
 
