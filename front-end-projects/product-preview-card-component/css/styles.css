@@ -1,0 +1,110 @@
+    
+*{
+    padding: 0;
+    margin: 0;
+}
+
+/**** Body Tags ****/
+
+body {
+    min-height: 100vh;
+    background-color: hsl(30, 38%, 92%);
+    font-size: 0.875rem;
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+p {
+    color: hsl(228, 12%, 48%);
+    word-spacing: 2px;
+    line-height: 20px;
+}
+
+h1 {
+    color: hsl(212, 21%, 14%);
+    font-size: 2rem;
+    font-family: 'Fraunces', serif;
+    margin: 1.2rem 0 1.2rem 0;
+}
+
+/**** Class Tags ****/
+
+.card {
+    align-items: center;
+    background-color: white;
+    border-radius: 1rem;
+    display: flex;
+    justify-content: center;
+    margin: 2rem;
+    width: 50vw;
+}
+
+.column-half {
+    flex: 50%;
+}
+
+.cart {
+    margin-right: 0.5rem;
+}
+
+.letter-spacing {
+    letter-spacing: 0.25rem;
+}
+
+.text-area {
+    margin: 2.5rem;
+}
+
+.pricing {
+    margin: 2rem 0 2rem 0;
+}
+
+.pricing span{
+    color: hsl(158, 36%, 37%);
+    font-size: 2rem;
+    font-family: 'Fraunces', serif;
+    margin-right: 1.2rem;
+    font-weight: 700;
+}
+
+.product-img {
+    background-image: url(../images/image-product-desktop.jpg);
+    border-top-left-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+    display: block;
+    width: 100%;
+}
+
+.btn {
+    border-radius: 5px;
+    background: hsl(158, 36%, 37%);
+    color: white;
+    display: flex;
+    font-family: 'Montserrat', sans-serif;
+    padding: 15px 20px 15px 20px;
+    text-decoration: none;
+    text-align: center;
+    width: 100;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn:hover {
+    background: hsl(158, 55%, 37%);
+    text-decoration: none;
+}
+
+/**** Attribution ****/
+
+.attribution {
+    font-size: 0.688rem; 
+    text-align: center; 
+    padding-bottom: 2rem;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%); 
+}
