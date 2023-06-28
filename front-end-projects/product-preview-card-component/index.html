@@ -17,7 +17,12 @@
 
   <div class="card">
     <div class="column-half">
-      <img class="product-img" src="images/image-product-desktop.jpg" alt="Product image">
+
+      <picture class="column-half">
+        <source class="product-img" media="(max-width: 400px)" srcset="images/image-product-mobile.jpg">
+        <img class="product-img" src="images/image-product-desktop.jpg" alt="Product image">
+      </picture>
+
     </div>
     <div class="column-half">
       <div class="text-area">
