@@ -119,6 +119,17 @@ h1 {
     text-decoration: none;
 }
 
+.back-button {
+    color: #F0FBFF;
+    background-color: #2C3333;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.back-button:hover {
+    color: #CBE4DE;
+}
+
 /**** Attribution ****/
 
 .attribution {
