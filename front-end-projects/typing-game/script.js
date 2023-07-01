@@ -44,7 +44,7 @@ typedValueElement.addEventListener('input', () => {
 
     if (typedValue === currentWord && wordIndex === words.length - 1) {
         const elapsedTime = new Date().getTime() - startTime;
-        const message = `CONGRADUALTIONS! You finished in ${elapsedTime / 1000} seconds.`;
+        const message = `CONGRATUALTIONS! You finished in ${elapsedTime / 1000} seconds.`;
         messageElement.innerText = message;
 
     } else if (typedValue.endsWith(' ') && typedValue.trim() === currentWord) {
