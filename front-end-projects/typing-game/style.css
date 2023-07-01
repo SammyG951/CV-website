@@ -1,0 +1,19 @@
+
+body {
+    padding-top: 150px;
+}
+
+.highlight {
+    color: yellow;
+}
+
+.error:focus {
+    background-color: lightcoral;
+    border: red;
+}
+
+.form-control {
+    width: 25vw;
+    text-align: center;
+    margin: 0 10px 0 10px;
+}
