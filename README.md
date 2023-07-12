@@ -41,7 +41,6 @@ Continuously adding personal projects, and I am working on JavaScript implementa
 - [Font Awesome](https://fontawesome.com/) - This helped with finding icons.
 - [Flaticon](https://www.flaticon.com/) - This helped with finding icons.
 - [Unsplash](https://unsplash.com/) - This helped with finding stock images.
-- 
 
 ## License
 
