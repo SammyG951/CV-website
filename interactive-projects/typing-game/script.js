@@ -18,6 +18,11 @@ const quoteElement = document.getElementById('quote');
 const messageElement = document.getElementById('message');
 const typedValueElement = document.getElementById('typed-value');
 const startButtonElement = document.getElementById('start');
+const lowestTimeElement = document.getElementById('lowest-time');
+
+document.addEventListener('DOMContentLoaded', () =>{
+    localStorage.setItem('lowestTime', 9999);
+})
 
 startButtonElement.addEventListener('click', () => {
 
@@ -50,6 +55,11 @@ typedValueElement.addEventListener('input', () => {
         const elapsedTime = new Date().getTime() - startTime;
         const message = `CONGRATUALTIONS! You finished in ${elapsedTime / 1000} seconds.`;
         messageElement.innerText = message;
+
+        if ((elapsedTime / 1000) < localStorage.getItem('lowestTime')){
+            localStorage.setItem('lowestTime', elapsedTime / 1000);
+        }
+        lowestTimeElement.innerText = `Current Sessions Lowest Time: ${localStorage.getItem('lowestTime')} seconds.`;
 
         typedValueElement.type = 'hidden';
 
