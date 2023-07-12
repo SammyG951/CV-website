@@ -17,8 +17,9 @@ let startTime = Date.now;
 const quoteElement = document.getElementById('quote');
 const messageElement = document.getElementById('message');
 const typedValueElement = document.getElementById('typed-value');
+const startButtonElement = document.getElementById('start');
 
-document.getElementById('start').addEventListener('click', () => {
+startButtonElement.addEventListener('click', () => {
 
     const quoteIndex = Math.floor(Math.random() * quotes.length);
     const quote = quotes[quoteIndex];
@@ -30,8 +31,11 @@ document.getElementById('start').addEventListener('click', () => {
     quoteElement.childNodes[0].className = 'highlight';
     messageElement.innerText = '';
 
+    typedValueElement.type = 'text';
     typedValueElement.value = '';
     typedValueElement.focus();
+
+    startButtonElement.style.display = 'none';
 
     startTime = new Date().getTime();
 
@@ -46,6 +50,11 @@ typedValueElement.addEventListener('input', () => {
         const elapsedTime = new Date().getTime() - startTime;
         const message = `CONGRATUALTIONS! You finished in ${elapsedTime / 1000} seconds.`;
         messageElement.innerText = message;
+
+        typedValueElement.type = 'hidden';
+
+        startButtonElement.style.display = '';
+        startButtonElement.innerText = 'Play Again?'
 
     } else if (typedValue.endsWith(' ') && typedValue.trim() === currentWord) {
 
