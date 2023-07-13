@@ -17,6 +17,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&family=Sacramento&display=swap" rel="stylesheet">
 
+    <script src="  https://cdn.jsdelivr.net/npm/showdown@1.9.0/dist/showdown.min.js"></script>
+
 </head>
 <body>
 
@@ -34,17 +36,18 @@
 
     <h4 class="margin-bottom-25px">-- or --</h4>
 
-    <div class="justify-content-center">
+    <div class="justify-content-center margin-bottom-25px">
         <h4>Seclect File From Computer</h4>
         <p><i>Must be .md or .markdown file</i></p>
         <input id="file-input" type="file" class="form-control">
         <button id="upload-button" type="button" class="btn home-page-btn">Upload</button>
     </div>
 
+    <p>Markdown Content Will Be Displayed Bellow!</p>
+
     <hr>
 
     <div id="content">
-        <p>Markdown Content Will Be Displayed Here!</p>
     </div>
 
     <script src="script.js"></script>

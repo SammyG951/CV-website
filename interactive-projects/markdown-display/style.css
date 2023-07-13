@@ -7,6 +7,11 @@ h4 {
     margin-top: auto;
 }
 
+#content {
+    margin: 0 150px;
+    text-align: left;
+}
+
 .margin-bottom-25px {
     margin-bottom: 25px;
 }
@@ -17,3 +22,4 @@ h4 {
     text-align: center;
     margin: 0 10px 0 10px;
 }
+
