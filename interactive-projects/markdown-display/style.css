@@ -1,5 +1,18 @@
 
+body {
+    padding-top: 100px;
+}
+
+h4 {
+    margin-top: auto;
+}
+
+.margin-bottom-25px {
+    margin-bottom: 25px;
+}
+
 .form-control {
+    display: inline-block;
     width: 25vw;
     text-align: center;
     margin: 0 10px 0 10px;
