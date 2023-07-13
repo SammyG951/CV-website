@@ -7,7 +7,7 @@ h4 {
     margin-top: auto;
 }
 
-#content {
+.content-section {
     margin: 0 150px;
     text-align: left;
     padding: 50px;

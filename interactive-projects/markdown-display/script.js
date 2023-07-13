@@ -20,6 +20,7 @@ linkSubmitButton.addEventListener('click', () => {
             const converter = new showdown.Converter();
             const html = converter.makeHtml(data);
             contentElement.innerHTML = html;
+            contentElement.className = "content-section";
 
             linkTextBox.value = '';
         })
@@ -48,6 +49,7 @@ uploadButton.addEventListener('click', () => {
                 const converter = new showdown.Converter();
                 const html = converter.makeHtml(fileContent);
                 contentElement.innerHTML = html;
+                contentElement.className = "content-section";
 
                 uploadInput.value = '';
             };
