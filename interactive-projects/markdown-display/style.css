@@ -7,25 +7,6 @@ h4 {
     margin-top: auto;
 }
 
-.content-section {
-    margin: 0 150px;
-    text-align: left;
-    padding: 50px;
-    border-radius: 25px;
-    border: #566363;
-    border-style: solid;
-}
-
-#content a {
-    color: #8EF0D9;
-    text-decoration: none;
-    padding: 10px;
-}
-
-#content a:hover {
-    color: #CBE4DE;
-}
-
 .margin-bottom-25px {
     margin-bottom: 25px;
 }

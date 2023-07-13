@@ -1,0 +1,24 @@
+.markdown-content-section {
+    margin: 0 150px;
+    text-align: left;
+    padding: 50px;
+    border-radius: 25px;
+    border: #566363;
+    border-style: solid;
+}
+
+.markdown-content-section a {
+    color: #8EF0D9;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.markdown-content-section a:hover {
+    color: #CBE4DE;
+}
+
+.markdown-content-section pre {
+    background-color: #374040;
+    padding: 20px;
+    border-radius: 10px;
+}
