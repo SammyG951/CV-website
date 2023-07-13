@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Markdown Display Project</title>
+
+    <link rel="icon" href="../../images/Sammy-modified-219x219.png">
+
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;900&family=Ubuntu:wght@300;400;700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js" integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../../css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&family=Sacramento&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+    <h1>Markdown Display Project</h1>
+
+    <h3>Enter Raw Link</h3>
+    <input id="markdown-link" input="text" class="form-control">
+    <button id="link-submit" type="button" class="btn home-page-btn">Submit</button>
+
+    <h4>-- or --</h4>
+
+    <h3>Seclect File From Computer</h3>
+    <p><i>Must be .md or .markdown file</i></p>
+    <input id="file-input" type="file">
+    <button id="upload-button" type="button">Upload</button>
+
+    <hr>
+
+    <div id="content">
+        <p>Markdown Content Will Be Displayed Here!</p>
+    </div>
+
+    <script src="script.js"></script>
+    
+</body>
+</html>
