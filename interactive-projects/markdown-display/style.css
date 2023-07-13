@@ -12,6 +12,16 @@ h4 {
     text-align: left;
 }
 
+#content a {
+    color: #8EF0D9;
+    text-decoration: none;
+    padding: 10px;
+}
+
+#content a:hover {
+    color: #CBE4DE;
+}
+
 .margin-bottom-25px {
     margin-bottom: 25px;
 }
