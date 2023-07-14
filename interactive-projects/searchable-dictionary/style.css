@@ -1,0 +1,27 @@
+
+body {
+    padding-top: 100px;
+}
+
+.margin-bottom-25px {
+    margin-bottom: 25px;
+}
+
+.form-control {
+    display: inline-block;
+    width: 25vw;
+    text-align: center;
+    margin: 0 10px 0 10px;
+}
+
+.info-section {
+    margin: 0 150px;
+    text-align: left;
+}
+
+#content div {
+    border-radius: 25px;
+    padding: 50px;
+    border: #566363;
+    border-style: solid;
+}
