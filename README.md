@@ -48,7 +48,7 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 ## Author
 
-- Github - [@SammyG951]([https://github.com/](https://github.com/SammyG951))
+- Github - [@SammyG951](https://github.com/SammyG951)
 
 ## Contact
 
